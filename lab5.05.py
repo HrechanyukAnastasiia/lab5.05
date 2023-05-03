@@ -1,4 +1,3 @@
-#2
 def count_vowels(s):
     vowels = 'aeiouAEIOU'
     count = 0
