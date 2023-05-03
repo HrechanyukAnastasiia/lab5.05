@@ -1,10 +1,9 @@
-#2
-def count_vowels(s):
-    vowels = 'aeiouAEIOU'
-    count = 0
-    for char in s:
-        if char in vowels:
-            count += 1
-    return count
-s1 = input('Введіть рядок англ.мовою:')
-print('Кількість голосних літерів:', count_vowels(s1))
+#1
+a = 5
+b = 10
+def swap(a, b):
+    a, b = b, a
+    return a, b
+print(f'До обміну: a = {a}, b = {b}')
+a, b = swap(a, b)
+print(f'Після обміну: a = {a}, b = {b}')
