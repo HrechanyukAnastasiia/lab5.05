@@ -1,4 +1,3 @@
-#1
 a = 5
 b = 10
 def swap(a, b):
