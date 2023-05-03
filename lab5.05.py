@@ -1,4 +1,3 @@
-#4
 def long_words(dictionary):
     long_words_list = []
     for word in dictionary:
